@@ -1,0 +1,279 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="My personal web development portfolio.">
+  <meta name="theme-color" content="#0b1020">
+
+  <title>My Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <header class="site-header">
+    <a class="logo" href="#home">
+      <span class="logo-mark">Y</span>
+      <span>YourName<span class="accent">.</span></span>
+    </a>
+
+    <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
+      <span></span>
+      <span></span>
+    </button>
+
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a class="nav-contact" href="#contact">Contact ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow">
+          <span class="status-dot"></span>
+          OPEN TO NEW IDEAS
+        </div>
+
+        <p class="intro">Hello! I'm <span class="accent">Your Name</span></p>
+
+        <h1>
+          I create digital<br>
+          <span class="gradient-text">things with ideas.</span>
+        </h1>
+
+        <p class="hero-description">
+          I'm an aspiring web developer learning HTML, CSS and JavaScript.
+          I enjoy turning ideas into clean and useful web projects.
+        </p>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">
+            Explore projects ↗
+          </a>
+          <a class="text-link" href="#about">About me ↓</a>
+        </div>
+
+        <div class="hero-meta">
+          <span>✦ Learning every day</span>
+          <span>⌘ Building new things</span>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="code-card">
+          <div class="code-top">
+            <span>● ● ●</span>
+            <span>about-me.js</span>
+            <span>⌘</span>
+          </div>
+
+          <div class="code-lines">
+            <p><span class="purple">const</span> developer = {</p>
+            <p>&nbsp;&nbsp;name: <span class="green">'Your Name'</span>,</p>
+            <p>&nbsp;&nbsp;role: <span class="green">'Web Developer'</span>,</p>
+            <p>&nbsp;&nbsp;skills: [</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;<span class="orange">'HTML'</span>,</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;<span class="orange">'CSS'</span>,</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;<span class="orange">'JavaScript'</span></p>
+            <p>&nbsp;&nbsp;],</p>
+            <p>&nbsp;&nbsp;goal: <span class="green">'Build cool things'</span></p>
+            <p>};</p>
+          </div>
+        </div>
+
+        <div class="floating-chip chip-html">5 HTML</div>
+        <div class="floating-chip chip-css">✳ CSS</div>
+        <div class="floating-chip chip-js">JS JavaScript</div>
+      </div>
+    </section>
+
+    <section class="section" id="about">
+      <div class="section-kicker">01 / ABOUT ME</div>
+
+      <div class="section-heading">
+        <h2>Curiosity turns into<br>
+          <span class="gradient-text">real projects.</span>
+        </h2>
+        <p>Every project is an opportunity to learn something new.</p>
+      </div>
+
+      <div class="about-grid">
+        <article class="about-card">
+          <span class="card-icon">✦</span>
+          <h3>Always learning</h3>
+          <p>I study web development and improve my coding skills through practice.</p>
+        </article>
+
+        <article class="about-card">
+          <span class="card-icon">⌘</span>
+          <h3>Love creating</h3>
+          <p>I enjoy turning simple ideas into clean and friendly interfaces.</p>
+        </article>
+
+        <article class="about-card">
+          <span class="card-icon">↗</span>
+          <h3>Open to knowledge</h3>
+          <p>I explore open source, documentation and development best practices.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-kicker">02 / SKILLS</div>
+
+      <div class="section-heading">
+        <h2>Tools I work<br>
+          <span class="gradient-text">with.</span>
+        </h2>
+        <p>My current technologies. This list will grow with experience.</p>
+      </div>
+
+      <div class="skill-list">
+        <div class="skill">
+          <div class="skill-icon html-icon">5</div>
+          <div>
+            <h3>HTML5</h3>
+            <p>Semantic page structure</p>
+          </div>
+          <span class="skill-level">Learning</span>
+        </div>
+
+        <div class="skill">
+          <div class="skill-icon css-icon">✳</div>
+          <div>
+            <h3>CSS3</h3>
+            <p>Styling and responsive layouts</p>
+          </div>
+          <span class="skill-level">Learning</span>
+        </div>
+
+        <div class="skill">
+          <div class="skill-icon js-icon">JS</div>
+          <div>
+            <h3>JavaScript</h3>
+            <p>Interactive web experiences</p>
+          </div>
+          <span class="skill-level">Learning</span>
+        </div>
+
+        <div class="skill">
+          <div class="skill-icon git-icon">⌘</div>
+          <div>
+            <h3>Git & GitHub</h3>
+            <p>Version control and open source</p>
+          </div>
+          <span class="skill-level">Practicing</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-kicker">03 / PROJECTS</div>
+
+      <div class="section-heading">
+        <h2>Small steps.<br>
+          <span class="gradient-text">Big ideas.</span>
+        </h2>
+        <p>Projects I'm building and improving.</p>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-art art-one">
+            <span class="art-symbol">01</span>
+            <div class="mini-window">
+              <b>My first project</b>
+              <small>Learning by building.</small>
+            </div>
+          </div>
+
+          <div class="project-info">
+            <div>
+              <span class="project-type">OPEN SOURCE</span>
+              <h3>My First Project</h3>
+            </div>
+            <span class="project-number">01</span>
+          </div>
+
+          <p>An educational open-source project that grows with my skills.</p>
+
+          <div class="tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+
+          <a class="project-link"
+             href="https://github.com/kirillivanov04112014/my-first-open-source-project"
+             target="_blank" rel="noopener noreferrer">
+            View on GitHub ↗
+          </a>
+        </article>
+
+        <article class="project-card project-placeholder">
+          <div class="project-art art-two">
+            <span class="plus-symbol">+</span>
+            <span class="coming">COMING SOON</span>
+          </div>
+
+          <div class="project-info">
+            <div>
+              <span class="project-type">IN PROGRESS</span>
+              <h3>Next Idea</h3>
+            </div>
+            <span class="project-number">02</span>
+          </div>
+
+          <p>A new project will appear here soon.</p>
+
+          <div class="tags">
+            <span>New idea</span>
+            <span>Coming soon</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="contact">
+      <div class="contact-panel">
+        <div class="section-kicker">04 / CONTACT</div>
+
+        <h2>Have an idea?<br>
+          <span class="gradient-text">Let's connect.</span>
+        </h2>
+
+        <p>
+          I'm open to conversations, advice and new learning opportunities.
+        </p>
+
+        <a class="button button-primary"
+           href="https://github.com/kirillivanov04112014"
+           target="_blank" rel="noopener noreferrer">
+          My GitHub ↗
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="logo" href="#home">
+      <span class="logo-mark">Y</span>
+      <span>YourName<span class="accent">.</span></span>
+    </a>
+
+    <span>Built with curiosity and code ✦</span>
+    <a href="#home">Back to top ↑</a>
+  </footer>
+</body>
+</html>
