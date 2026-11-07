@@ -45,7 +45,7 @@
           OPEN TO NEW IDEAS
         </div>
 
-        <p class="intro">Hello! I'm <span class="accent">Your Name</span></p>
+        <p class="intro">Hello! I'm <span class="accent">kirillivanov04112014</span></p>
 
         <h1>
           I create digital<br>
@@ -80,7 +80,7 @@
 
           <div class="code-lines">
             <p><span class="purple">const</span> developer = {</p>
-            <p>&nbsp;&nbsp;name: <span class="green">'Your Name'</span>,</p>
+            <p>&nbsp;&nbsp;name: <span class="green">'kirillivanov04112014'</span>,</p>
             <p>&nbsp;&nbsp;role: <span class="green">'Web Developer'</span>,</p>
             <p>&nbsp;&nbsp;skills: [</p>
             <p>&nbsp;&nbsp;&nbsp;&nbsp;<span class="orange">'HTML'</span>,</p>
